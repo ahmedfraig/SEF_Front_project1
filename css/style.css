@@ -5,11 +5,21 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+h1,h2{
+    font-family: 'Cinzel', serif;
+}
+button{
+    font-family: 'Playfair Display', serif;;
+}
+
+a{
+    font-family: 'Playfair Display', serif;;
 }
 
 .header {
-    background-color: rgb(205, 92, 92,0.8);
+    background-color: rgb(197, 109, 57,0.8);
     height: 7%;
     width: 100%;
     position: relative;
@@ -94,7 +104,7 @@ body {
     top: 60px;
     left: 0;
     width: 100%;
-    background-color: rgba(205, 92, 92, 0.8);
+    background-color: rgba(197, 109, 57, 0.8);
 }
 
 .header .header-blog-list {
@@ -176,7 +186,7 @@ body {
     font-size: 13vh;
     font-weight: bold;
     margin-bottom: 3vh;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Cinzel', serif;
 }
 
 .section1-p {
@@ -202,7 +212,7 @@ body {
 }
 
 .section1 .btn2 {
-    background-color: indianred;
+    background-color: #c56d39;
     color: white;
 }
 
@@ -230,7 +240,7 @@ body {
 .section2-line {
     width: 9%;
     height: 4px;
-    background-color: indianred;
+    background-color: #c56d39;
     margin: auto;
 }
 
@@ -246,7 +256,7 @@ body {
 .section2-box {
     width: 30%;
     height: 100%;
-    border: 1px solid indianred;
+    border: 1px solid #c56d39;
     float: left;
     border-radius: 10px;
     position: relative;
@@ -266,7 +276,7 @@ body {
     top: 0;
     left: 0;
 
-    background-color: indianred;
+    background-color: #c56d39;
 
     opacity: 0;
     pointer-events: none;
@@ -299,7 +309,7 @@ body {
     font-size: 4vh;
     margin-bottom: 3vh;
     margin-top: -3vh;
-    color:indianred;
+    color:#c56d39;
 }
 
 .section2-box .section2-h2 {
@@ -319,7 +329,7 @@ body {
 
 .section2-box-container a {
     text-decoration: none;
-    color: indianred;
+    color: #c56d39;
     font-size: 3vh;
     font-weight: bold;
 }
@@ -343,7 +353,7 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
-    background-color: rgba(205, 92, 92, 0.1);
+    background-color: rgba(197, 109, 57, 0.1);
 }
 
 .section3-container {
@@ -440,7 +450,7 @@ body {
     text-decoration: none;
     display: inline-block;
     background-color: white;
-    color:indianred;
+    color:#c56d39;
     font-size: 3vh;
     width: 13%;
     height: 100%;
@@ -477,7 +487,7 @@ body {
 .section4-line {
     width: 9%;
     height: 4px;
-    background-color: indianred;
+    background-color: #c56d39;
     margin: auto;
 }
 
@@ -493,7 +503,7 @@ body {
 .section4-box {
     width: 25%;
     height: 100%;
-    border: 1px solid indianred;
+    border: 1px solid #c56d39;
     margin-bottom: 5%;
     float: left;
     border-radius: 10px;
@@ -515,7 +525,7 @@ body {
     top: 0;
     left: 0;
 
-    background-color: indianred;
+    background-color: #c56d39;
     ;
 
     opacity: 0;
@@ -542,7 +552,7 @@ body {
 
 .section4-icon {
     text-decoration: none;
-    color: indianred;
+    color: #c56d39;
     font-size: 4vh;
     font-weight: bold;
     float: left;
@@ -571,13 +581,13 @@ body {
 
 .section4-box-container a {
     text-decoration: none;
-    color: indianred;
+    color: #c56d39;
     font-size: 4vh;
     font-weight: bold;
 }
 
 .section4-box:hover .section4-box-h2 {
-    color: indianred;
+    color: #c56d39;
     transition: 0.45s;
 }
 
@@ -633,7 +643,7 @@ body {
     width: 10%;
     height: 4px;
     margin-bottom: 4%;
-    background-color: indianred;
+    background-color: #c56d39;
 }
 
 .section5-p {
@@ -660,7 +670,7 @@ body {
     content: "\f00c";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: indianred;
+    color: #c56d39;
     margin-right: 8px;
 }
 
@@ -695,7 +705,7 @@ body {
 .circle {
     width: 5%;
     aspect-ratio: 1/1;
-    background-color: indianred;
+    background-color: #c56d39;
     border-radius: 50%;
     display: inline-block;
 }
@@ -773,7 +783,7 @@ body {
 .items i {
     font-size: 6vh;
     margin-bottom: 4%;
-    color:indianred
+    color:#c56d39
 }
 
 /* ----------------------------------------- */
@@ -797,7 +807,7 @@ body {
     height: 100%;
     float: left;
     text-align: center;
-    border: 1px solid indianred;
+    border: 1px solid #c56d39;
     border-radius: 10px;
     padding: 2%;
     font-weight: bold;
@@ -824,7 +834,7 @@ body {
     width: 33.33%;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    border: 1px solid indianred;
+    border: 1px solid #c56d39;
     margin: auto;
     margin-bottom: 3vh;
     position: relative;
@@ -837,12 +847,12 @@ body {
 .price-btn {
     padding: 1vh;
     font-size: 2.25vh;
-    background-color: rgba(205, 92, 92, 0.2);
+    background-color: rgba(197, 109, 57, 0.2);
     color: black;
     font-weight: bold;
     width: 60%;
     border-radius: 10px;
-    border: 1px solid indianred;
+    border: 1px solid #c56d39;
     position: relative;
     z-index: 2;
 }
@@ -857,7 +867,7 @@ body {
     top: 0;
     left: 0;
 
-    background-color: indianred;
+    background-color: #c56d39;
     ;
 
     opacity: 0;
@@ -884,7 +894,7 @@ body {
 }
 
 .section7-box:hover .section7-p {
-    color: indianred;
+    color: #c56d39;
 }
 
 .centerPrice {
@@ -968,7 +978,7 @@ body {
 .info-p {
     font-size: 2.5vh;
     font-weight: bold;
-    color: indianred;
+    color: #c56d39;
 }
 
 .section8-p {
@@ -999,7 +1009,7 @@ body {
     float: left;
     text-align: center;
     position: relative;
-    background-color: rgba(205, 92, 92,0.4);;
+    background-color: rgba(197, 109, 57,0.4);;
     border-radius: 10px;
 }
 
@@ -1074,7 +1084,7 @@ body {
 
     top: 0;
     left: 0;
-    background-color: indianred;
+    background-color: #c56d39;
     z-index:1;
     opacity: 0.3;
     transition: 1s;
@@ -1101,7 +1111,7 @@ body {
 
     top: 79.1%;
     right: 0;
-    background-color: indianred;
+    background-color: #c56d39;
 
     opacity: 0.3;
     transition: 1s;
@@ -1125,7 +1135,7 @@ body {
 
     top: 79.1%;
     left: 0;
-    background-color: indianred;
+    background-color: #c56d39;
 
     opacity: 0.3;
     transition: 1s;
@@ -1145,7 +1155,7 @@ body {
 }
 
 .section9-item:hover .section9-p {
-    color: indianred;
+    color: #c56d39;
     opacity: 1;
     transition: 1s;
 }
@@ -1156,7 +1166,7 @@ body {
     aspect-ratio: 1/1;
     margin-left: auto;
     text-decoration: none;
-    background-color: indianred;
+    background-color: #c56d39;
     color: white;
     display: block;
 }
@@ -1187,7 +1197,7 @@ body {
     float: left;
     text-align: center;
     font-weight: bold;
-    border: 1px solid indianred;
+    border: 1px solid #c56d39;
     border-radius: 10px;
     position: relative;
     padding-left: 10px;
@@ -1236,7 +1246,7 @@ body {
     display: inline-block;
     margin-right: 0.75vh;
     text-decoration: none;
-    color: indianred;
+    color: #c56d39;
     font-size: 2.5vh;
 }
 
@@ -1253,7 +1263,7 @@ body {
 
 .section10 .a-read {
     text-decoration: none;
-    color: indianred;
+    color: #c56d39;
 }
 
 .section10-item::after {
@@ -1274,7 +1284,7 @@ body {
 
     top: 0;
     left: 0;
-    background-color: indianred;
+    background-color: #c56d39;
     z-index: 1;
     opacity: 0.3;
     transition: 1s;
@@ -1295,7 +1305,7 @@ body {
 }
 
 .section10-item:hover .section10-p {
-    color: indianred;
+    color: #c56d39;
     transition: 1s;
 }
 
@@ -1303,7 +1313,7 @@ body {
     width: 100%;
     height: 46.5vh;
     position: relative;
-    background-color: rgba(205, 92, 92,.3);
+    background-color: rgba(197, 109, 57,.3);
 }
 
 .section11-content {
@@ -1335,7 +1345,7 @@ body {
 .section11-button{
     width:15%;
     aspect-ratio: 1/1;
-    background-color: rgba(205, 92, 92,.6);
+    background-color: rgba(197, 109, 57,.6);
     border-radius: 50%;
     color:white;
     font-size: 3vh;
@@ -1344,7 +1354,7 @@ body {
 }
 
 .section11-button:hover{
-    background-color: rgba(205, 92, 92,1);
+    background-color: rgba(197, 109, 57,1);
     transition: 0.5s;
 }
 
