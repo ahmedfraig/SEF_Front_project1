@@ -743,7 +743,7 @@ a{
 }
 
 .img3 {
-    margin-left: -12.113vw;
+    margin-left: -11.99vw;
 }
 
 /* ------------------------------------------ */
@@ -855,6 +855,11 @@ a{
     border: 1px solid #c56d39;
     position: relative;
     z-index: 2;
+}
+
+.price-btn:hover{
+    background-color: rgba(197, 109, 57, 0.5);
+    transition: 0.45s;
 }
 
 .section7-box::after {
